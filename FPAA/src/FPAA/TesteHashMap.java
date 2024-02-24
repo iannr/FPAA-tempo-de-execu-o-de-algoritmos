@@ -5,8 +5,8 @@ import java.util.Random;
 
 public class TesteHashMap {
     public static void main(String[] args) {
-        int P = 2500000; // Altere para 5000000 e 10000000 conforme necessário
-        int N = 20000;
+        int P = 2500000; // 5000000 e 10000000 
+        int N = 20000; // 40000
         HashMap<Integer, Pessoa> pessoas = new HashMap<>();
         Random rand = new Random();
         
